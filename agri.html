@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>शेतकरी बाजार</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f8f3;
+    color:#243424;
+}
+
+header{
+    background:#237a3b;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:28px;
+}
+
+header p{
+    margin-top:8px;
+    font-size:14px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    background:white;
+    padding:12px 5px;
+    position:sticky;
+    top:0;
+    z-index:10;
+    box-shadow:0 2px 8px #ccc;
+}
+
+nav button{
+    border:none;
+    background:none;
+    color:#237a3b;
+    font-weight:bold;
+    font-size:13px;
+}
+
+.container{
+    padding:18px;
+    max-width:700px;
+    margin:auto;
+}
+
+.hero{
+    background:#dff1df;
+    padding:25px 18px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    color:#17652d;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:15px;
+    line-height:1.5;
+}
+
+.main-buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-top:20px;
+}
+
+.main-buttons button{
+    padding:18px 8px;
+    border:none;
+    border-radius:12px;
+    background:#2e8b46;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.card{
+    background:white;
+    padding:18px;
+    border-radius:15px;
+    margin-bottom:15px;
+    box-shadow:0 2px 8px #ddd;
+}
+
+.card h3{
+    color:#237a3b;
+    margin-bottom:10px;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #bbb;
+    border-radius:8px;
+    font-size:15px;
+}
+
+textarea{
+    min-height:80px;
+}
+
+.submit{
+    width:100%;
+    margin-top:18px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#237a3b;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.section{
+    display:none;
+}
+
+.section.active{
+    display:block;
+}
+
+.product{
+    border-left:5px solid #237a3b;
+}
+
+.badge{
+    display:inline-block;
+    padding:5px 9px;
+    border-radius:15px;
+    background:#e0f2e3;
+    color:#237a3b;
+    font-size:12px;
+    margin-bottom:8px;
+}
+
+.contact{
+    background:#237a3b;
+    color
